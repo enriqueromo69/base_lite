@@ -22,3 +22,5 @@ Route::get('/test', 'TestController@index');
 Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->middleware('verified');
+
+Route::resource('testteos', 'TestteoController');

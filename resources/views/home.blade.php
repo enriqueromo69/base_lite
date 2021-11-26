@@ -15,6 +15,25 @@
         </span>
         
     </h1>
+
+
+    <livewire:counter /> 
+    
+    <div id="app">
+        <example-component> </example-component>
+    </div>
+
     </div>
 </div>
+
 @endsection
+
+@push('scripts')
+    <script>
+        // Your custom JavaScript...
+    //alert('hola');
+    new Vue({
+        el: '#app',
+    });
+    </script>
+@endpush

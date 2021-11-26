@@ -124,8 +124,8 @@ return [
 
     'options' => [
 
-        'softDelete' => true,
-
+        //'softDelete' => true,
+        'softDelete' => false,
         'save_schema_file' => true,
 
         'localized' => false,
@@ -137,6 +137,7 @@ return [
         'resources' => false,
 
         'excluded_fields' => ['id'], // Array of columns that doesn't required while creating module
+        //'excluded_fields' => [], // Array of columns that doesn't required while creating module
     ],
 
     /*
@@ -189,7 +190,8 @@ return [
 
     'timestamps' => [
 
-        'enabled'       => true,
+        //'enabled'       => true,
+        'enabled'       => false,
 
         'created_at'    => 'created_at',
 
