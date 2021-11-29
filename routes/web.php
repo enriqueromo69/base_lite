@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire as componente;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,4 @@ Auth::routes(['verify' => true]);
 Route::get('/home', 'HomeController@index')->middleware('verified');
 
 Route::resource('testteos', 'TestteoController');
+//Route::get('/users', '\App\Http\Livewire\Usuariolv')->name('users');

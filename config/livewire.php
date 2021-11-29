@@ -53,6 +53,7 @@ return [
     | Examples: "/assets", "myurl.com/app".
     |
     */
+    //'asset_url' => env('asset_url', null),
 
     'asset_url' => null,
 

@@ -8,6 +8,9 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import swal from 'sweetalert';
+
+
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
 /*

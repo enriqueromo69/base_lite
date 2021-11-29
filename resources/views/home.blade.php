@@ -21,6 +21,8 @@
     
     <div id="app">
         <example-component> </example-component>
+        <button @click="mensajito()" >Mensaje</button>
+  
     </div>
 
     </div>
@@ -30,10 +32,22 @@
 
 @push('scripts')
     <script>
-        // Your custom JavaScript...
+    //Your custom JavaScript...
     //alert('hola');
     new Vue({
         el: '#app',
+        methods: {
+            mensajito: function () {
+                swal("Hola es un mensajito",'Datos','success');
+            },
+        },
+        /*
+        data{ejemplo:''},
+        methods:{
+            sesion:function (){
+            },
+        }
+        */
     });
     </script>
 @endpush

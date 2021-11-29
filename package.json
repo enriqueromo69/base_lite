@@ -25,6 +25,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.4",
-        "ionicons-npm": "^2.0.1"
+        "ionicons-npm": "^2.0.1",
+        "sweetalert": "^2.1.2"
     }
 }
